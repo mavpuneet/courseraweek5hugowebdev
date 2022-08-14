@@ -1,0 +1,9 @@
+baseURL = "http://coursera-week5-hugo-web-site.s3-website-us-west-1.amazonaws.com/"
+languageCode = 'en-us'
+title = 'My New Hugo Site via Cloud9 and S3'
+theme = "ananke"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://coursera-week5-hugo-web-site/?region=us-west-1"
